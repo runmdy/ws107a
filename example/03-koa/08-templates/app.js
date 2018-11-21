@@ -21,8 +21,8 @@ const user = {
 
 // render
 
-app.use(async function(ctx) {
-  await ctx.render('user', { user });
+app.use(async function(ctx) { 
+  await ctx.render('user', { user }); //有回乎要加上await
 });
 
 if (!module.parent) app.listen(3000);

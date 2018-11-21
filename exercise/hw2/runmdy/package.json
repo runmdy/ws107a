@@ -1,0 +1,14 @@
+{
+  "name": "runmdylodash",
+  "version": "0.0.1",
+  "description": "Reimplement lodash functions",
+  "main": "chunk.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "runmdy",
+  "license": "MIT",
+  "dependencies": {
+    "koa-body": "^4.0.4"
+  }
+}
